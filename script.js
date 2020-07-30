@@ -14,6 +14,4 @@ function getRandomQuote() {
 }
 
 //On Window Load
-document.onload(getRandomQuote());
-
-//On Click of New Quote Button
+document.addEventListener("DOMContentLoaded", getRandomQuote());
