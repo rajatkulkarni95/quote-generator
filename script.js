@@ -15,3 +15,17 @@ function getRandomQuote() {
 
 //On Window Load
 document.addEventListener("DOMContentLoaded", getRandomQuote());
+
+//Tweet Current Quote
+function twitterShare() {
+  const tweetAnchor = document.getElementById("tweet");
+
+  const twitterShareUrl =
+    "https://twitter.com/share?&text=" +
+    quoteContent.innerHTML +
+    " " +
+    quoteAuthor.innerHTML;
+
+  // Add the current quote to the Twitter share link
+  tweetAnchor.setAttribute("href", twitterShareUrl);
+}

@@ -6,6 +6,4 @@
   <a href="https://rajatkulkarni95.github.io/quote-generator/">Visit the live app</a> |
 </h3>
 
-![Desktop screenshot](./assets/Desktop.PNG)
-
-![Mobile screenshot](./assets/Mobile.PNG)
+![Desktop screenshot](./assets/Display.PNG)
