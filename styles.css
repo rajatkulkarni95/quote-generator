@@ -92,6 +92,9 @@ footer a {
 }
 
 @media (max-width: 800px) {
+  .container {
+    width: 60vw;
+  }
   .quote__box {
     padding: 20px;
   }
@@ -112,8 +115,11 @@ footer a {
     height: 500px;
   }
 
-  footer {
-    top: 90%;
-    left: 40%;
+  .quote__content {
+    font-size: 1.2rem;
+  }
+
+  .quote__button {
+    font-size: 0.7rem;
   }
 }
